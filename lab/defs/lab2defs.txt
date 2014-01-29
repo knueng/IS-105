@@ -1,0 +1,15 @@
+Operatør prioritet - Går ut på hvilken operatør som har høyest prioritet, og dermed blir utført først.
+Oversikt over gjeldende rekkefølge i python:
+( )      (alt i parantes blir gjort først)
+**     (eksponensiering)
+-x, +x
+*, /, %, //
++, -
+relasjonsoperasjoner: <, >, <=, >=, !=, ==
+logical not
+logical and
+logical or
+
+Ones' complement - Går ut på å gjøre et binært tall negativt ved å gjøre om nuller til en og omvendt
+
+Two's complement - Er en måte å lagre integers på, for å gjøre matteoperasjoner enklere. Man bytter om nuller og enere og legger til 1.

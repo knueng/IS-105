@@ -1,0 +1,24 @@
+	
+
+    mkdir - Står for "make new directory", lager en ny mappe. mkdir nytt_mappe_navn
+     
+    cd - Står for change directory. Går inn i mappen du skriver etter cd. cd navn_på_mappe
+     
+    ls - Står for list directory. Skriver ut en liste over alle mapper og filer som ligger i mappen du er i.
+     
+    ls -l - Lister opp innholdet i mappen i et langt format, med mer informasjon
+     
+    ls -la - Lister også opp filer som ikke blir vist ved kun bruk av "ls." For eksempel filer som begynner med punktum.
+    samtidig som du får det i et langt format.
+     
+    pwd - Står for print working directory. Skriver ut hvor du befinner deg.
+     
+    cat - printer ut en hel fil
+     
+    less - leser/skriver ut fil
+    
+    Pipes and redirection: 
+	Redirection - Vil bli å sende en en output fra en kommando til en fil.
+	Piping - Sende en output til en annen kommando.
+
+
