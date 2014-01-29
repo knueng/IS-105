@@ -51,7 +51,7 @@ def ascii_fugl():
 #    1 & 1 = 1
 #
 def bitAnd(x, y):
-  return x&y
+  return x & y
 
 # 
 #  Oppgave 3
@@ -67,7 +67,7 @@ def bitAnd(x, y):
 #    Eksempel: bitXor(4, 5) = 1
 #
 def bitXor(x, y):
-  return 2
+  return x or y
 
 #
 #  Oppgave 5
