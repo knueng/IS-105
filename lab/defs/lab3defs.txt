@@ -1,0 +1,10 @@
+Et regulært utrykk (regular expression): er en serie med tegn som brukes til å finne ting i tekster eller ord. Det kan vere tegn som for eksempel viser
+til plassering av et bestemt ord i en tekst.
+
+Import - import brukes til å importere moduler inn i koden din, som gjør at du kan bruke funksjoner, definisjoner og lignende som ligger i modulen.
+
+Skriptspråk - er en type programmeringsspråk som tolkes og utføres av separate programmer. Et skript er en fil som inneholder kommandoer i et skriptspråk.
+
+Perl - også kalt Practical Extraction and Report Language. Perl er et programmeringsspråk som ble laget for å være et praktisk språk for å hente ut informasjon fra tekstfiler.
+
+Bash - er et UNIX shell, som blir brukt som default shell i Linux. I BASH kan man skrive inn kommandoer, og det kan også lese skript.
