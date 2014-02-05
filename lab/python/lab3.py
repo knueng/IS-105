@@ -36,6 +36,12 @@ gruppe = {  'Knut Enga': '-', \
 #
 # Din funksjonsimplementering skrives her ...
 
+def lab3_scripts():
+    subprocess.call(["/root/Desktop/IS-105/scripts/test1.sh"])
+    subprocess.call(["/root/Desktop/IS-105/scripts/test1.pl"])
+    subprocess.call(["/root/Desktop/IS-105/scripts/test1.py"])
+
+
 
 
 #
@@ -80,7 +86,9 @@ os bruker: root
 #    Anta at inn-data er korrekt (ingen testing nødvendig)
 #
 def initialer(navn):
-	return 2
+    for c in navn:
+        if c.isupper():
+            print c,
 
 #
 #  Oppgave 4
@@ -101,8 +109,9 @@ def initialer(navn):
 #    Anta at inn-data er korrekt, dvs. inneholder to 
 #    operander (to tall) og en operatør (+, for eksempel).
 #
+
 def infix_to_prefix(infix):
-	return 2
+	return re.findall(r"[+*\-\/]", infix), re.findall(r"[0-9]+", infix)
 
 
 # Kaller opp implementerte funksjoner (pseudo-testing)
@@ -117,13 +126,14 @@ print min_sys_info.__doc__
 min_sys_info()
 
 print 5*"-" + " initialer() " + 5*"-"
-print initialer("Wolfgang Goethe")
+initialer("Wolfgang Goethe")
+print "\n"
 
 print 5*"-" + " infix_to_prefix() " + 5*"-"
 print infix_to_prefix("2/3")
 
 # Kalle opp din lab3_scripts() funksjon her
 print 5*"-" + " lab3_scripts() " + 5*"-"
-
+print lab3_scripts()
 
 
