@@ -1,0 +1,19 @@
+API - Application programming interface. Kan bli brukt til å gjøre programmeringsjobben letter. Ofte inneholder en API
+flere "biblioteker," som gjør det mulig å bruke metoder som er prefabrikerte.
+
+IDE - Integrated Development Enviroment. Er et software som blir brukt til å programmere i. I motsetning til f.eks
+tekstbehandlere, kan en IDE automatisere mye kodeskriving eller inneholde en debugger som muligjør testing av kode.
+
+ps - process status. Viser prosesser som kjører
+
+top - er et task-manager program som viser kjørende prosesser basert på ulike kriteria.
+
+df - disk free. Viser ledig diskplass.
+
+kill - et signal man sender for å ende en prosess.
+
+netstat	- et kommandolinjeverktøy som viser inngående og utgående nettverkstilkoblinger.
+
+ifconfig - interface configuration. Blir brukt for å kontrollere og konfigurere TCP/IP nettverk
+
+who - viser en liste over brukere som er logget inn på maskinen.
