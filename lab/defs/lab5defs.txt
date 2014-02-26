@@ -1,0 +1,31 @@
+
+Linux Prosesstilstander:    
+    
+    R  running or runnable / kjører
+    D  uninterruptible sleep / sover, kan ikke avbrytes
+    S  interruptible sleep / sover, kan "vekkes"
+    Z  defunct/zombie / blir ikke avbrytt selv om "forelderen" blir avbrutt
+    T  stopped
+    
+
+Kommandoer:
+
+    python <filnavn>.py - kjører python filen i python.
+    
+    javac <filnavn>.java - kompilerer javakoden i javafilen. Lager en .class fil.
+    
+    java <filnavn>.class - kjører java "bytecode" i java.
+    
+    gcc -o <filnavn> <filnavn>.c - kompiler c og c++ kode i GNU project compiler.
+    
+    sleep 100 & - gjør at et program sovner i 100 sekunder. 
+    
+    cat /proc/cpuinfo - skriver ut informasjon om cpu'en 
+
+    
+
+Multiprogrammering: 
+    
+    Multiprogrammering er når flere program kjører samtidig på en datamaskin. Når det bare er en prosessor, kan maskinen 
+    bare kjøre ett program om gangen, så operativsystemet kjører deler av programmene om gangen, slik at det virker som
+    om flere programmer kjører på likt.
